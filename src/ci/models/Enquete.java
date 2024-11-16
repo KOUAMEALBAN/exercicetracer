@@ -1,4 +1,4 @@
-package Ci.models;
+package exercicetracer.src.ci.models;
 
  public class Enquete {
  private int id;
