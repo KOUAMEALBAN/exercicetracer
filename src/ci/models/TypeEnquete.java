@@ -1,4 +1,4 @@
-package Ci.models;
+package ci.models;
 public class TypeEnquete {
     private int id;
     private String code;
@@ -7,7 +7,7 @@ public class TypeEnquete {
     public TypeEnquete(){
         System.out.println("constructeur sans parametres");
     }
-    public  TypeEnquete(int id, String code, String libelle);{
+    public  TypeEnquete (int id, String code, String libelle) {
             this.id = id;
             this.code = code;
             this.libelle = libelle;
@@ -39,4 +39,4 @@ public class TypeEnquete {
     }
 
 
-}
+

@@ -1,9 +1,8 @@
 
-package Ci.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import ci.Enquete;
+import ci.models.Enquete;
 import ci.models.TypeEnquete;
 public class App {
     public static void main(String[] args) throws Exception {
@@ -22,4 +21,5 @@ public class App {
           Enquete.afficher();
  
     }
+}
 }

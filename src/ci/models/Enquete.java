@@ -1,4 +1,4 @@
-package exercicetracer.src.ci.models;
+package ci.models;
 
  public class Enquete {
  private int id;
@@ -6,16 +6,16 @@ package exercicetracer.src.ci.models;
  private String description;
  private String TypeEnquete;
 
- public class Enquete(int ,String titre, String description, String TypeEnquete) {
+ public void Enquete(int ,String titre, String description, String TypeEnquete) {
     this.id = id;
     this.titre = titre;
     this.description = description;
     this.TypeEnquete = TypeEnquete;
-    
+ }
     
     public void afficher() {
         System.out.println("Enquete -> (" + this.id + ", " + this.titre + ", " + this.description + ")");
-        this.typeEnquete.afficher();
+        this.TypeEnquete.afficher();
     }      
 
 
@@ -47,4 +47,4 @@ public void setTypeEnquete(String typeEnquete) {
 }
 
     
-}
+
